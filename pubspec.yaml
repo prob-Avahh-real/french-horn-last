@@ -1,0 +1,27 @@
+name: french_horn_last
+description: "圆号老末 - 90/00年代小学音乐课沙雕音乐游戏"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.2
+  path_provider: ^2.1.5
+  ffi: ^2.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/soundfonts/
+    - assets/midi/
